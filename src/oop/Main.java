@@ -8,7 +8,7 @@ public class Main {
 		System.out.println("bottle type: " +obj.type);
 		System.out.println("bottle weight: "+obj.weight);
 		obj.open();
-		System.out.println("the bottle is open: "+obj.opened);
+		System.out.println("status: this bottle is open: "+obj.opened);
 		obj.close();
 		System.out.println(obj.opened);
 	}
